@@ -1,0 +1,136 @@
+/* General Styles */
+
+body {
+font-family: serif;
+font-size: 1.1em;
+}
+
+h1 {
+	font-family: sans-serif;
+}
+
+#header {
+	padding: 5px;
+}
+
+#header div:last-of-type {
+	display: none;
+}
+
+a:link {
+	text-decoration:none;
+	color: #E5D637;
+}
+
+a:hover{
+	text-decoration: underline;
+	background-color: #A5A2A2;
+	padding: 3px;
+}
+
+#main {
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+#disqus_thread {
+	position: relative;
+	bottom: -100px;
+	margin-bottom: 0px
+}
+
+#footer {
+	border-top: 3px solid black;
+	position: relative;
+	bottom: -10px;
+}
+
+/* Menu Button Styles */
+
+.link_button {
+	background-color:#00753E;
+	padding: 5px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	color: white;
+}
+
+/* Tablet Styles */
+@media (min-width: 800px) {
+
+	#header div:first-of-type {
+		width: 66%;
+		float: left;
+	}
+
+	#header div:last-of-type {
+		width: 33%;
+		float: right;
+		text-align:right;
+		display: inline;
+	}
+	
+	#left-content {
+		float: left;
+		display: inline;
+		width: 45%;
+	}
+	
+	#right-content {
+		float:right;
+		margin-right: 5px;
+	}
+	
+	#right-content div:nth-child(3) {
+		position: relative;
+		bottom: -50px;
+	}
+	
+	#right-content div:nth-child(4) {
+		position: relative;
+		bottom: -50px;
+	}
+	
+	#right-content div:nth-child(5) {
+		position: relative;
+		bottom: -90px;
+	}
+	
+	#projects {
+		position: relative;
+		bottom: -90px;
+	}
+	
+	#footer {
+		clear: both;
+		position: relative;
+		bottom: -200px;
+	}
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1200px) {
+	#left-content {
+		width: 50%;
+		position: relative;
+		bottom: -10px;
+		padding-left: 8%;
+	}
+	
+	#left-content div:nth-child(3) {
+		position: relative;
+		bottom: -39px;
+	}
+	
+	#right-content {
+		padding-right: 7%;
+		padding-right: 7%;
+	}
+	
+	#footer{
+		position: relative;
+		bottom: -300px;
+	} 
+}
