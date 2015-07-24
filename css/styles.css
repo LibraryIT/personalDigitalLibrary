@@ -11,6 +11,7 @@ h1 {
 
 #header {
 	padding: 5px;
+	background-color: #00753E;
 }
 
 #header div:last-of-type {
@@ -31,6 +32,7 @@ a:hover{
 #main {
 	margin-bottom: 5px;
 	padding: 5px;
+	width: 100%;
 }
 
 #disqus_thread {
@@ -53,7 +55,7 @@ a:hover{
 	font-weight: bold;
 	margin-bottom: 5px;
 	margin-top: 5px;
-	color: white;
+	color: #D1CACA;
 }
 
 /* Tablet Styles */
@@ -112,7 +114,10 @@ a:hover{
 /* Desktop Styles */
 
 @media (min-width: 1200px) {
-	#left-content {
+	#bottom-content {
+		display: none;
+	}
+/*	#left-content {
 		width: 50%;
 		position: relative;
 		bottom: -10px;
@@ -127,7 +132,7 @@ a:hover{
 	#right-content {
 		padding-right: 7%;
 		padding-right: 7%;
-	}
+	} */
 	
 	#footer{
 		position: relative;
