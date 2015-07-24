@@ -31,6 +31,10 @@ a:hover{
 	width: 100%;
 }
 
+#right-content {
+	display: none;
+}
+
 #disqus_thread {
 	position: relative;
 	bottom: -100px;
@@ -113,15 +117,22 @@ a:hover{
 	#left-content div:nth-child(3) {
 		position: relative;
 		bottom: -39px;
+	} */
+	
+	#main{
+		width: 48%;
+		float: left;
+		clear: right;
 	}
 	
 	#right-content {
-		padding-right: 7%;
-		padding-right: 7%;
-	} */
-	
-	#footer{
-		position: relative;
-		bottom: -300px;
+		display: block;
+		width: 50%;
+		float: right;
+		margin-top: 30px;
 	} 
+	
+	#right-content img {
+		float: right;
+	}
 }
