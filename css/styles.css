@@ -22,7 +22,16 @@ a:link {
 a:hover{
 	text-decoration: underline;
 	background-color: #A5A2A2;
-	padding: 3px;
+	padding: 15px;
+	padding-bottom: 5px;
+}
+
+a:visited{
+	color: white;
+}
+
+#nav {
+	display: none;
 }
 
 #main {
@@ -56,6 +65,12 @@ a:hover{
 	margin-bottom: 5px;
 	margin-top: 5px;
 	color: #D1CACA;
+}
+
+.nav_button {
+	font-weight:bold;
+	padding: 15px;
+	font-size: 1.2em;
 }
 
 /* Tablet Styles */
@@ -106,6 +121,10 @@ a:hover{
 	}
 	.link_button{
 		display: none;
+	}
+	
+	#nav {
+	display: inline;
 	}
 /*	#left-content {
 		width: 50%;
