@@ -53,7 +53,7 @@ a:visited{
 #footer {
 	border-top: 3px solid black;
 	position: relative;
-	bottom: -10px;
+	top: 100px;
 }
 
 /* Menu Button Styles */
