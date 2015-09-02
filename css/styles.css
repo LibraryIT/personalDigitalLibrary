@@ -22,7 +22,7 @@ a:link {
 a:hover{
 	text-decoration: underline;
 	background-color: #A5A2A2;
-	padding: 15px;
+	padding: 5px;
 	padding-bottom: 5px;
 }
 
@@ -69,7 +69,7 @@ a:hover{
 
 .nav_button {
 	font-weight:bold;
-	padding: 15px;
+	padding: 5px;
 	font-size: 1.2em;
 }
 
@@ -153,5 +153,10 @@ a:hover{
 	
 	#right-content img {
 		float: right;
+	}
+	
+	#projects {
+		position: relative;
+		top: -25px;
 	}
 }
