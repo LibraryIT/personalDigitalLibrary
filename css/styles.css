@@ -45,20 +45,31 @@ a:hover{
 
 /* Navigation Menu */
 
-#nav a:visited {
-	color: white;
-}
-
-#nav {
-	display: none;
-}
 
 #side_nav {
 	background-color: grey;
+	position: fixed;
+	z-index: 2;
+	width: 75%;
+	height:100%;
+	opacity: 0.9;
+	display: none;
 }
 
 #side_nav ul {
 	list-style-type: none;
+}
+
+#side_nav a:visited {
+	color: white;
+}
+
+#top_nav {
+	display: none;
+}
+
+#top_nav a:visited {
+	color: white;
 }
 
 /* Menu Button Styles */
@@ -106,7 +117,7 @@ a:hover{
 		display: none;
 	}
 	
-	#nav {
+	#top_nav {
 	display: inline;
 	}
 	
